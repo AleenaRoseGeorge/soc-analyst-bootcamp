@@ -101,3 +101,7 @@ real-world tools, techniques, and scenarios used in Security Operations Centers.
 | CEH | EC-Council | 🟡 In Progress |
 
 ---
+
+## 📌 Related Projects
+- [Web Application VAPT Report](https://github.com/AleenaRoseGeorge/web-application-pentest-report)
+- [Cyber Forensics Internship](https://github.com/AleenaRoseGeorge/cyber-forensics-internship)
