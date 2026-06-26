@@ -1,7 +1,7 @@
 # 🛡️ SOC Analyst Bootcamp — 20-Day Self-Study Plan
 
 **Type:** Self-directed study | **Focus:** Blue Team / SOC Operations  
-**Duration:** 20 Days | **Status:** 🟡 In Progress (Day 3/20)
+**Duration:** 20 Days | **Status:** 🟡 In Progress (Day 4/20)
 
 ---
 
@@ -18,7 +18,7 @@ real-world tools, techniques, and scenarios used in Security Operations Centers.
 |-----|-------|--------|
 | Day 1 | Windows Event Logs & Key Event IDs | ✅ Done |
 | Day 2 | Logon Types, Persistence Mechanisms & MITRE ATT&CK Mapping | ✅ Done |
-| Day 3 | Suspicious PowerShell & Scheduled Task Analysis | 🟡 In Progress |
+| Day 3 | Cyber Kill Chain & Attack Frameworks | ✅ Done |
 | Day 4 | Network Traffic Analysis with Wireshark | ⬜ Upcoming |
 | Day 5 | SIEM Basics & Log Ingestion | ⬜ Upcoming |
 | Day 6 | Microsoft Sentinel — Setup & Queries | ⬜ Upcoming |
@@ -85,6 +85,26 @@ real-world tools, techniques, and scenarios used in Security Operations Centers.
 
 ---
 
+### ✅ Day 3 — Cyber Kill Chain & Attack Frameworks
+
+**Cyber Kill Chain — 7 Stages**
+
+| Stage | Description |
+|-------|-------------|
+| 1. Reconnaissance | Attacker gathers intel on the target |
+| 2. Weaponization | Crafting malware and exploit payloads |
+| 3. Delivery | Phishing emails, USB drops, watering holes |
+| 4. Exploitation | Triggering the vulnerability |
+| 5. Installation | Malware establishes persistence on target |
+| 6. Command & Control (C2) | Attacker maintains remote access |
+| 7. Actions on Objectives | Data theft, ransomware, disruption |
+
+**SOC Analyst Mapping**
+- Each kill chain stage maps to specific alert types in SIEM
+- Early stage detection (Recon/Delivery) = better containment
+- C2 detection = critical — isolate endpoint immediately
+
+---
 
 ## 🧰 Tools & Platforms
 
@@ -103,5 +123,6 @@ real-world tools, techniques, and scenarios used in Security Operations Centers.
 ---
 
 ## 📌 Related Projects
+
 - [Web Application VAPT Report](https://github.com/AleenaRoseGeorge/web-application-pentest-report)
 - [Cyber Forensics Internship](https://github.com/AleenaRoseGeorge/cyber-forensics-internship)
