@@ -1,7 +1,7 @@
 # Scenario 04 — Ransomware: Network Propagation via Shared Drive
 
-**Primary Tactic:** Initial Access → Execution → Impact → Lateral Movement  
-**Severity:** CRITICAL  
+**Primary Tactic:** Initial Access → Execution → Impact → Lateral Movement
+**Severity:** CRITICAL
 **MITRE:** T1566.001 | T1486 | T1021.002
 
 ---
@@ -51,7 +51,7 @@ Restarting destroys volatile memory — encryption keys potentially recoverable 
 5. **Take CORP-FILESERVER offline** — the spread mechanism, not just the endpoints
 6. Memory dump on patient zero before anything is powered down
 
-> ⚠️ The most commonly missed action: taking the file server offline.  
+> ⚠️ The most commonly missed action: taking the file server offline.
 > Individual endpoint isolation is not enough when the spread vector is a shared network drive.
 
 ---
