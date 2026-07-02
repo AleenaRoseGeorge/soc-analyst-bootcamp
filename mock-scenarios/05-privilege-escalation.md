@@ -1,7 +1,7 @@
 # Scenario 05 — Privilege Escalation via Compromised Web Server
 
-**Primary Tactic:** Credential Access → Privilege Escalation → Persistence  
-**Severity:** CRITICAL  
+**Primary Tactic:** Credential Access → Privilege Escalation → Persistence
+**Severity:** CRITICAL
 **MITRE:** T1078.002 | T1021.001 | T1136.002 | T1098 | T1552
 
 ---
@@ -63,7 +63,7 @@ svc_healthmonitor added to Domain Admins (T1098)
 5. Audit full Domain Admins group — svc_healthmonitor may not be the only backdoor
 6. Pull 4624 for svc_healthmonitor across all hosts — did it log into anything in the window?
 
-> ⚠️ Do NOT delete svc_healthmonitor — disable only.  
+> ⚠️ Do NOT delete svc_healthmonitor — disable only.
 > Deletion destroys the account SID, creation timestamp, and group membership records — all forensic evidence for Legal and post-incident review.
 
 ---
