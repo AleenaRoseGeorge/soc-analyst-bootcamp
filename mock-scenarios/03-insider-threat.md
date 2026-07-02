@@ -1,7 +1,7 @@
 # Scenario 03 — Insider Threat: Departing Employee Data Exfiltration
 
-**Primary Tactic:** Collection → Exfiltration  
-**Severity:** CRITICAL  
+**Primary Tactic:** Collection → Exfiltration
+**Severity:** CRITICAL
 **MITRE:** T1030 | T1567.002
 
 ---
@@ -16,7 +16,7 @@ Files:       47 files — 1.2 GB (.dwg, .pdf, .docx)
 HR Status:   Last working day TODAY
 ```
 
-**Severity upgrade:** MEDIUM → CRITICAL  
+**Severity upgrade:** MEDIUM → CRITICAL
 Reason: Departing employee + R&D IP + .dwg AutoCAD files + incremental pattern across 5 days = premeditated trade secret theft
 
 ---
@@ -35,7 +35,7 @@ Escalating volume, deliberate threshold evasion — this is premeditated, not ac
 
 ## Why .dwg matters
 
-> `.dwg` = AutoCAD engineering drawings — product schematics, blueprints, core IP.  
+> `.dwg` = AutoCAD engineering drawings — product schematics, blueprints, core IP.
 > This is not a document leak. This is potential trade secret theft. Name it explicitly in every brief.
 
 ---
