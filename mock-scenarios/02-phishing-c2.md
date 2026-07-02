@@ -1,7 +1,7 @@
 # Scenario 02 — BEC Phishing: Finance Executive Compromise
 
-**Primary Tactic:** Initial Access → Execution → Command & Control  
-**Severity:** CRITICAL  
+**Primary Tactic:** Initial Access → Execution → Command & Control
+**Severity:** CRITICAL
 **MITRE:** T1566.002 | T1059.001 | T1027 | T1036 | T1071.001
 
 ---
@@ -19,7 +19,7 @@ Data:       2.3 MB outbound
 
 **User report:** Finance executive Priya Nair received CEO impersonation email requesting urgent $85,000 wire transfer. She did not transfer funds but clicked a link to view an "invoice." Reports nothing happened when she clicked.
 
-**Severity upgrade:** MEDIUM → CRITICAL  
+**Severity upgrade:** MEDIUM → CRITICAL
 Reason: Finance executive + BEC pattern + "nothing happened" = silent execution + confirmed C2 timing correlation
 
 ---
@@ -66,7 +66,8 @@ Reason: Finance executive + BEC pattern + "nothing happened" = silent execution 
 4. Pull DNS/proxy logs — check if any other hosts contacted same C2
 
 **How to handle the user:**
-> ✅ *"Priya, we're seeing something on our network we need to check. Can I grab your laptop for 10 minutes? It's routine."*  
+
+> ✅ *"Priya, we're seeing something on our network we need to check. Can I grab your laptop for 10 minutes? It's routine."*
 > ❌ Do NOT say "your system might be compromised" — user may panic and restart, destroying volatile memory.
 
 ---
