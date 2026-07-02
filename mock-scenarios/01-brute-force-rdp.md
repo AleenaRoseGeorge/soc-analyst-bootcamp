@@ -1,7 +1,7 @@
 # Scenario 01 — Brute Force RDP on Domain Controller
 
-**Primary Tactic:** Initial Access → Credential Access → Lateral Movement  
-**Severity:** CRITICAL  
+**Primary Tactic:** Initial Access → Credential Access → Lateral Movement
+**Severity:** CRITICAL
 **MITRE:** T1110.001 | T1021.001 | T1078
 
 ---
@@ -19,7 +19,7 @@ Protocol:   RDP (Port 3389)
 Time:       02:45 AM
 ```
 
-**Severity upgrade:** HIGH → CRITICAL  
+**Severity upgrade:** HIGH → CRITICAL
 Reason: Domain Controller + confirmed Tor exit node + successful logon after failure cluster
 
 ---
