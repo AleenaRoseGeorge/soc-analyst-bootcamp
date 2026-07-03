@@ -56,6 +56,21 @@ alert details, triage steps, Event IDs, MITRE mappings, containment actions, and
 
 ---
 
+## 🎤 Interview Drill Transcripts
+
+Live, no-hints Q&A quiz drills — my actual answers followed by the correction, so the
+reasoning gaps stay visible instead of edited out. Each ends with a self-graded scorecard.
+A different format from the Mock Scenario Walkthroughs above: those are clean incident
+playbooks, these are the raw practice reps.
+
+| # | Drill | Topics |
+|---|-------|--------|
+| 01 | [NTDS Credential Dump on a Domain Controller](interview-drills/01-ntds-credential-dump-drill.md) | Event IDs, Logon Types, credential dumping, escalation briefs |
+| 02 | [Privilege Escalation via Compromised Web Server](interview-drills/02-privilege-escalation-drill.md) | Account creation abuse, RDP pivoting, MITRE mapping, containment order |
+| 03 | [Fileless Malware via Phishing (Marketing Executive)](interview-drills/03-fileless-malware-drill.md) | PowerShell obfuscation, Cyber Kill Chain positioning, time-critical containment |
+
+---
+
 ## 📚 Topics Covered
 
 ### ✅ Day 1 — Windows Event Logs & Key Event IDs
